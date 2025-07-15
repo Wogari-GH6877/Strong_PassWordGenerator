@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGeneretor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Strong Password Generator</h1>
+        <div class="row0">
+            <label >password length:</label>
+        <input type="text" id="input">
+       </div>
+        <p>Choose Your Combination</p>
+        <div class="row1">
+            <input type="radio" id="lower">
+        <label for="lower">LowerCaseAlphabets</label>
+        </div>
+        
+        <div class="row2">
+            <input type="radio" id="upper">
+             <label for="upper">UpperCaseAlpabets</label>
+        </div>
+        <div class="row3">
+            <input type="radio" id="symbols">
+            <label for="symbols">Symbols</label>
+        </div>
+        <div class="row4">
+            <input type="radio" id="number">
+        <label for="number">Numbers</label>
+        </div>
+        <button id="button">Generate</button>
+        <p id="show"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
